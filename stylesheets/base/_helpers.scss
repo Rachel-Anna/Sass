@@ -2,12 +2,14 @@
 // This file contains CSS helper classes.
 // -----------------------------------------------------------------------------
 
+@use '../abstracts/' as *;
+
 /**
  * Clear inner floats
  */
 .clearfix::after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 

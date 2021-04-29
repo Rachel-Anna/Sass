@@ -360,20 +360,12 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #35e500;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
   color: #222222;
   text-decoration: underline;
-}
-
-/**
- * Basic typography style for copy text
- */
-body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /**
@@ -433,6 +425,18 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #222222;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+li {
+  color: #35e500;
 }
 
 /*# sourceMappingURL=/main.f3749b86.css.map */
